@@ -30,4 +30,5 @@ jobs:
            IMAGE_TAG: latest
 
          run: 
-           sudo docker buildx build --push -t $ECR_REPOSITORY .
+           docker login
+           docker buildx build --push -t $ECR_REPOSITORY .
