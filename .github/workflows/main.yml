@@ -30,4 +30,4 @@ jobs:
            IMAGE_TAG: latest
 
          run: 
-           docker buildx build --push -t $ECR_REGISRY/$ECR_REPOSITORY .
+           docker buildx build --push -t $ECR_REPOSITORY .
