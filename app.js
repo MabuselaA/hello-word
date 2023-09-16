@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = 3000; // You can choose any available port
+const port = 3000; 
 
 // Define a route that responds with "Hello, World!" when accessed
 app.get('/', (req, res) => {
